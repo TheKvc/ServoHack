@@ -1,0 +1,64 @@
+#######################################
+# Syntax Coloring Map for ServoHack
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ServoHack	KEYWORD1
+Range	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+attach	KEYWORD2
+detach	KEYWORD2
+calibrate	KEYWORD2
+loadCalibrationSettings	KEYWORD2
+loadDefaultSettings	KEYWORD2
+saveCalibrationSettings	KEYWORD2
+setHome	KEYWORD2
+setTolerance	KEYWORD2
+setPulseRange	KEYWORD2
+setAngleRange	KEYWORD2
+setPotRange	KEYWORD2
+setAddress	KEYWORD2
+setFailSafe	KEYWORD2
+read	KEYWORD2
+readPrev	KEYWORD2
+readFeedback	KEYWORD2
+readMicroseconds	KEYWORD2
+getHome	KEYWORD2
+getTolerance	KEYWORD2
+getPot	KEYWORD2
+getFailSafe	KEYWORD2
+isAttached	KEYWORD2
+isAtHome	KEYWORD2
+isAtAngle	KEYWORD2
+isCalibrated	KEYWORD2
+write	KEYWORD2
+writeMicroseconds	KEYWORD2
+goHome	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+angle	LITERAL1
+pulse	LITERAL1
+pot	LITERAL1
+MAGIC_BYTE	LITERAL1
+DEFAULT_TOLERANCE	LITERAL1
+DEFAULT_SPEED	LITERAL1
+DEFAULT_PULSE_MIN	LITERAL1
+DEFAULT_PULSE_MAX	LITERAL1
+DEFAULT_ANGLE_MIN	LITERAL1
+DEFAULT_ANGLE_MAX	LITERAL1
+DEFAULT_POT_MIN	LITERAL1
+DEFAULT_POT_MAX	LITERAL1
+DEFAULT_EEPROM_ADDRESS	LITERAL1
+DEFAULT_HOME	LITERAL1
+DEFAULT_PIN	LITERAL1
+DEFAULT_POT_PIN	LITERAL1
+POT_READINGS	LITERAL1
+POT_DISCARD_READINGS	LITERAL1
