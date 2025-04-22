@@ -26,7 +26,7 @@ ServoHack is an Arduino library for hacked/modified servo motors that extends th
 1. Add to your platformio.ini:
    ```ini
    lib_deps = 
-     karanveer/ServoHack@^1.0.1
+     ServoHack
    ```
 2. Or clone the repository into your lib folder:
    ```
