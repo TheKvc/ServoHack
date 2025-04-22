@@ -1,0 +1,24 @@
+{
+    "name": "ServoHack",
+    "version": "1.0.1",
+    "description": "ServoHack provides precise servo control with potentiometer feedback, fail-safe operation, and EEPROM-based calibration.<br />It supports speed-controlled movements, position verification, and mechanical obstruction detection.<br />Ideal for robotics, automation, and testing rigs where reliable servo positioning is critical with fail-safe and calibration features.",
+    "keywords": "servo, hack, motor, control, fail-safe, calibration, arduino",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/TheKvc/ServoHack.git"
+    },
+    "authors": [
+      {
+        "name": "TheKvc",
+        "email": "karanveerchouhan@gmail.com",
+        "url": "https://github.com/TheKvc"
+      }
+    ],
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": "*"
+    "dependencies": {
+    "arduino-libraries/Servo": "*",
+    "EEPROM": "*"
+  }
+  }
