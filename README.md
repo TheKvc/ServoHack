@@ -2,6 +2,11 @@
 
 ServoHack is an Arduino library for hacked/modified servo motors that extends the standard Servo library with advanced features for precise servo control. It includes potentiometer feedback, fail-safe operation, and EEPROM-based calibration. This library is designed for applications like robotics, automation, and testing rigs where reliable servo positioning is critical.
 
+## How to Mod / Hack a  hobby servo? 
+
+1. https://www.instructables.com/Using-SG90-or-MG90-Servo-Feedback-Modification-for/
+2. https://www.instructables.com/Servo-Feedback-Hack-free/
+
 ## Features
 
 - **Potentiometer Feedback**: Reads servo position via a potentiometer for accurate angle verification
