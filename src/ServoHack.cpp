@@ -1,3 +1,30 @@
+/*
+ * ServoHack Library
+ * 
+ * This library provides an interface for controlling servo motors with enhanced features such as 
+ * calibration, EEPROM storage, and potentiometer feedback. It is designed to work with the Arduino 
+ * platform and offers flexibility in configuring servo parameters like angle, pulse width, and 
+ * potentiometer range.
+ * 
+ * Key Features:
+ * - Easy attachment and detachment of servos
+ * - Calibration support with optional EEPROM storage
+ * - Configurable angle and pulse width ranges
+ * - Potentiometer feedback for precise control
+ * 
+ * Usage:
+ * - Include this header file in your Arduino project.
+ * - Create an instance of the ServoHack class.
+ * - Use the provided methods to attach, calibrate, and control your servo.
+ * 
+ * For more information, visit the library's documentation at:
+ * - PlatformIO Registry: https://registry.platformio.org/libraries/karanveer/ServoHack
+ * - GitHub Repository: https://github.com/TheKvc/ServoHack
+ * 
+ * Author: Karanveer Chouhan (TheKvc) - www.batch-man.com
+ * License: MIT License
+ */
+
 #include <ServoHack.h>
 
 ServoHack::ServoHack() 
